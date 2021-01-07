@@ -1,7 +1,8 @@
-// require modules and set up router object
-const express = require('express').Router();
+// require modules
+const express = require('express');
 
-
+// set up router object
+const router = express.Router();
 
 // require the controller
 const usersCtrl = require('../../controllers/users');
